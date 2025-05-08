@@ -27,6 +27,7 @@
             background-color: rgb(0, 63, 92);
             color:white;
             transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
             
         }
 
@@ -38,9 +39,8 @@
         .Classes{
             Border: solid black 3px;
             width: 500px;
-           display: flexbox;
-            
             background-color: white;
+            height:650px;
             padding: 10px;
             clear: both;
     
@@ -48,10 +48,12 @@
 
         .Favorite:hover {
             box-shadow: 5px 5px aquamarine;
+            transition: all 0.5s ease-in-out;
         }
 
         .Classes:hover {
             box-shadow: 5px 5px aquamarine;
+            transition: all 0.5s ease-in-out;
         }
 
         p{
@@ -64,18 +66,19 @@
 
         .Favorite{
             Border: solid black 3px;
-            width: 500px;
+            width: 1400px;
             margin-bottom: 20px;
-            
+            height:650px;
             background-color: white;
             padding: 10px;
-		Margin-left: 20px;
+		    Margin-left: 20px;
             clear: both;
 
 
         }
         .Container{
             display: flex;
+            gap:20px;
         }
  
         .Container2{
@@ -159,18 +162,20 @@
             height: 650px;
             float: left;
             background-color: white;
+            padding: 10px;
 
         }
 
         .Ten2{
             border: 3px solid black;
-            Width: 300px;
+            Width: 370px;
             height:650px;
             float: right;
             background-color: white;
-            
+            padding: 10px;
         }
-tr, th, td{
+
+        tr, th, td{
             border: 1px solid black;
             padding: 20px;
             background-color: aquamarine;        
