@@ -16,7 +16,7 @@
             text-decoration: none;
             font-size: 20px;
             text-align: center;
-            transition: backgroundcolor all 0.3 ease transform all 0.3 ease;
+            transition: backgroundcolor all 0.3s ease transform all 0.3s ease;
             border-radius: 15px;
             padding: 10px;
             font-size: 20px;
@@ -50,11 +50,13 @@
         .Favorite:hover {
             box-shadow: 5px 5px aquamarine;
             transition: all 0.5s ease-in-out;
+		border-radius:5px 5px ;
         }
 
         .Classes:hover {
             box-shadow: 5px 5px aquamarine;
             transition: all 0.5s ease-in-out;
+		border-radius:5px 5px ;
         }
 
         p{
@@ -164,17 +166,19 @@
             float: left;
             background-color: white;
             padding: 10px;
-
+		
         }
 	
 	.Ten1:hover{
 	box-shadow: 5px 5px aquamarine;
             transition: all 0.5s ease-in-out;
+		border-radius:5px 5px ;
 	}
 
 	.Ten2:hover{
 	box-shadow: 5px 5px aquamarine;
             transition: all 0.5s ease-in-out;
+		border-radius:5px 5px ;
 	}
 
 
