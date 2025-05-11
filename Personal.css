@@ -217,3 +217,22 @@ box-shadow: 5px 5px aquamarine;
         text-align: center;
        
     }
+
+.n{
+        width:150px;
+        height: 250px;
+        border: 2px solid black;
+        box-shadow: 2px 2px 2px 2px rgba(230, 230, 230, 0.906);
+
+
+    }
+    
+    .Con{
+        border: 2px solid black;
+        box-shadow: 2px 2px 2px 2px rgba(230, 230, 230, 0.906);
+        gap: 20px;
+        transition: all 2s;
+        display:flex;
+        padding: 20px;
+
+    }
