@@ -91,13 +91,11 @@ font-size:20px;
     }
 
     .Engine{
-        height: 220px;
-        width: 200px;
-        border: 3px solid black;
-        padding:1px;
+        width:350px;
+        height: 190px;
     }
 
-    .Engine:hover{
+    .n:hover{
         box-shadow: 3px 3px rgb(0, 0, 0);
         transition: all 0.5s ease-in-out;
     border-radius:5px 5px ;
@@ -220,7 +218,7 @@ box-shadow: 5px 5px aquamarine;
 
 .n{
         width: 350px;
-        height: 150px;
+        height: 190px;
         border: 2px solid black;
         box-shadow: 2px 2px 2px 2px rgba(230, 230, 230, 0.906);
 
@@ -234,6 +232,7 @@ box-shadow: 5px 5px aquamarine;
         transition: all 2s;
         display:flex;
         padding: 10px;
+        justify-content: center;
     
 
     }
