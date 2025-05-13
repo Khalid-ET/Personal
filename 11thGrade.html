@@ -23,14 +23,17 @@
     <div class="Con10th">
 
         <div class="Ten1">
-            <h2>
+            <h2 id="Func">
                 What we learned
-            </h2>
+            </h2 >
                     <p>Our main objective throughout this school year was memorizing the syntaxes in order to be well prepared for the WebXam. We did this by learning more advanced html and css 
-                    as well as a bit of javascript. We learned how a simple code is structured and the three types of css, which are, inline, internal, and external.</p>
+                    as well as a bit of javascript. We learned how a simple code is structured and the three types of css, which are, inline, internal, and external.
+                    I learned that html is backbone of a code, laying the foundation for a dynamic webpage. Furthermore, it's the standard markup language used to create and structure content on the internet.
+                    CSS is design aspect of programming, it lets you customize and decorate you webpages to make them more appealing. Lastly, Javascript is what gives 
+                    the webpage functionality through functions, these are possible to do in buttons or text.</p>
                     <hr>
         
-            <h2>Challenges and Triumphs.</h2>
+            <h2 id="Func">Challenges and Triumphs.</h2>
 
                 <p>
                     Challenges we faecd throughout the school year was with difficult codes, and 
@@ -42,17 +45,18 @@
 
                 <hr>
 
-                <h2>
+                <h2 id="Func">
                   Favorite Moments 
                 </h2>
 
                 <p>
-                    My favorite
+                    My favorite moments from this year was being able to do codeathon, getting to collaborate with my peers to make great webpages, and helping other
+                    students with their codes.
                 </p>
                 </div>
             
                 <div class="Ten2">
-            <h2>Example Code we made.</h2>
+            <h2 id="Func">Example Code we made.</h2>
                     <button id="But" onclick="B1()">
         <h3>Alternating backgrounds</h3>
         </button>
@@ -68,7 +72,21 @@
                }
         
             }
+            <hr>
         </script>
+                   <button onclick="B2()">Text Change</button>
+
+<script>
+    function B2() {
+        var elem = document.getElementById("myText");
+        if (elem.style.color === "black") {
+            elem.style.color = "blue";
+        } else {
+            elem.style.color = "black";
+        }
+    }
+</script>
+                </script>
                 </div>
     </div>
 </body>
